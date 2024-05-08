@@ -2,12 +2,12 @@
 tags:
   - estatística
 ---
+>[!summary] Resumo
+>O teste nos diz se há uma associação significativa entre duas variáveis.
+
 >[!missing] MELHORAR
 >O início da nota fala sobre teste qui-quadrado e depois fala sobre associação entre variáveis qualitativas. Separar em duas notas **teste qui-quadrado** e **associação entre duas variáveis qualitativas**.
 >Falar sobre o coeficiente de Spearmen
-
->[!summary] Resumo
->O teste nos diz se há uma associação significativa entre duas variáveis.
 
 >[!WARNING] Atenção
 >Um problema com esse teste é que ele não dá a força de associação entre as duas variáveis, por esse motivo se utiliza o coeficiente de contingência para obter esse valor.  

@@ -2,12 +2,11 @@
 tags:
   - estatística
 ---
-
 >[!summary] Resumo
 >R² é uma medida-resumo, também utilizada como métrica em análise de regressões, que quantifica o grau de associação entre uma variável qualitativa e uma variável quantitativa.
 
 >[!missing] MELHORAR
->O que está sendo descrito aqui é o mesmo que o R² comumente utilizado na avaliação de modelos de ML?
+>O que está sendo descrito aqui é o mesmo R² comumente utilizado na avaliação de modelos de ML?
 
 No estudo da associação entre variáveis qualitativas e quantitativas convém utilizar a variância para construir uma medida. A variância calculada para a variável quantitativa para todos os dados mede a dispersão dos dados globalmente. Se a variância dentro de cada categoria for pequena e menor do que a global, significa que a variável qualitativa melhora a capacidade de previsão da quantitativa e portanto existe uma relação entre as duas variáveis.
 

@@ -2,7 +2,6 @@
 tags:
   - estatística
 ---
-
 Vários procedimentos estatísticos são baseados na suposição de que **os dados provêm de uma distribuição normal** (em forma de sino) ou então mais ou menos simétrica. Mas, em muitas situações de **interesse prático**, a distribuição dos dados da amostra **é assimétrica** e pode conter valores atípicos.
 
 Se quisermos utilizar tais procedimentos, o que se propõe é efetuar uma transformação das observações, de modo a se obter uma distribuição mais simétrica e próxima da normal. Uma família de transformações frequentemente utilizada é:

@@ -2,11 +2,16 @@
 tags:
   - estatística
 ---
+Um modelo de probabilidade é uma função que retorna a probabilidade de uma variável aleatória acontecer.
 
-Um modelo de probabilidade é uma função que possui como entrada o valor de uma variável aleatória e retorna a probabilidade.
+# Uniforme
+Um modelo uniforme retorna a mesma probabilidade para todas as variáveis discretas. Por exemplo, você comprou cinco números numa loteria que permite escolher até 100, os números que você escolheu foram: 10, 11, 12, 13 e 14. O seu amigo comprou, também, cinco números: 7, 34, 43, 55 e 67. Pela nossa intuição, o seu amigo tem mais chances de ganhar porque ele escolheu números mais espaçados, mas, na verdade, você e ele tem a mesma chance porque os números possuem as mesmas probabilidades: $1/100$. 
 
+Neste cenário, nós temos um modelo uniforme porque não importa qual número você escolha (variável aleatória), a função retornará a mesma probabilidade:
+
+$P(X=x_j) = 1/k,$ para todo $j = 1, 2, ..., k$.
 # *Bernoulli*
-O modelo mais fácil para entender modelos probabilísticos é o de *Bernoulli*, pois é um modelo que retorna a probabilidade em cenários em que há apenas um caso para o sucesso e outro para o fracasso. Ou seja, a nossa variável aleatória são os nossos casos de sucesso (1) ou fracasso (0). Temos então:
+Assim como o modelo uniforme, *Bernoulli* é bem fácil de entender, pois é um modelo que retorna a probabilidade em cenários em que há apenas um caso para o sucesso e outro para o fracasso. Ou seja, a nossa variável aleatória são os nossos casos de sucesso (1) ou fracasso (0). Temos então:
 $$
 P(X = x) = p^x \cdot (1-p)^{1-x}.
 $$
@@ -27,9 +32,34 @@ Para fixar, se nosso $k=1$, estaríamos atrás da probabilidade de uma pessoa de
 
 $$
 \begin{align} 
-P(X=k) & = \binom{3}{1} \; \cdot \; p^1 \; \cdot \; (1-p)^{3-1} \\
-& = 3 \; \cdot \; 0.8 \; \cdot \; 0.2^2,
+P(X=k) & = \binom{3}{1} \cdot p^1 \cdot (1-p)^{3-1} \\
+& = 3 \cdot 0.8 \cdot 0.2^2,
 \end{align}
 $$
 
 que é exatamente o que nós encontramos na tabela.
+
+Hmm, mas eu não poderia apenas dizer que há uma chance de 80% de uma pessoa desse grupo estar imunizada? No início pode ser que você se confunda com isso, mas essa probabilidade vale apenas para um cenário onde há **UM** indivíduo. Por isso você usa *Bernoulli*, ou ele está imunizado ou não. Entretanto, no caso acima em que temos um grupo é diferente, pois precisamos considerar a probabilidade de estar imunizado ou não de cada indivíduo para cada cenário diferente, ou seja... *Bernoulli* repetidas vezes.
+
+# Geométrico
+O modelo geométrico pode ser entendido como o número de ensaios de *Bernoulli* que acontecem antes do primeiro sucesso. Ou seja, podemos obter a probabilidade de uma variável aleatória $k$ acontecer **ANTES** do caso de sucesso $p$ acontecer.
+$$
+P(X=k) = p(1-p)^k,
+$$
+com $p$ sendo a probabilidade de sucesso e $k$ nossa variável aleatória.
+
+> [!NOTE] Nota
+> Por "**sucesso**", não significa, necessariamente, o caso em que algo positivo acontece, mas qualquer caso que seja visto como sucesso pela variável aleatória. Por exemplo, se nossa variável aleatória fosse "quantidade de peças boas antes da defeituosa", teríamos a "**peça defeituosa**" como o caso de sucesso.
+
+
+Vamos ao exemplo: temos uma vacina que possui 1% de chance de falha. Qual a probabilidade de 20 pessoas serem imunizadas ao tomarem a vacina antes que ela apresente uma falha?
+
+É necessário que cada vacinação não influencie na probabilidade de outra vacina, portanto, supondo independência entre as vacinas teríamos:
+$$
+\begin{align}
+P(X=20) & = 0,01 \cdot 0,99^{20} \\
+& = 0,0081.
+\end{align}
+$$
+Portanto, a chance da vacina **imunizar** 20 pessoas **antes da vacina falhar** seria de 0,81%.
+

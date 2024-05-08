@@ -1,7 +1,6 @@
 ---
 draft: "true"
 ---
-
 Afirmações ordinárias só podem ser usadas para destacar que há uma diferença entre condições. Elas não quantificam o tamanho do efeito.
 
 Para fazer afirmações ordinárias se utiliza de um procedimento metodológico chamado de **teste de hipóteses**. Uma parte do teste de hipótese consiste em computar um p-valor e examinar se há uma diferença estatística **significante**. ==Um teste de hipótese é usado para distinguir um sinal (que vale a pena dar atenção) de um ruído aleatório nos dados.==

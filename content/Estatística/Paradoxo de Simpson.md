@@ -2,7 +2,6 @@
 tags:
   - estatística
 ---
-
 O paradoxo de Simpson ocorre quando os dados agrupados possuem uma tendência, mas ao combiná-los essa tendência se inverte ou desaparece. O mesmo conjunto de dados pode mostrar tendências opostas dependendo da maneira como está combinado.
 
 O melhor exemplo para entender esse paradoxo é o famoso *Viés de gênero da Universidade de Berkeley*. Os números de admissões em 1973 mostraram que os homens eram mais propensos do que as mulheres a serem admitidos. Contudo, ao analisar individualmente as taxas de admissão dos departamentos, quatro dos seis departamentos possuíam um viés a favor das mulheres, os dois restantes não possuíam viés de gênero significativo. Os dados agrupados mostraram um viés em favor das mulheres. 

@@ -2,11 +2,11 @@
 tags:
   - estatística
 ---
+>[!summary] Resumo
+>Teste estatístico para observar se uma distribuição de dados segue alguma distribuição específica ou se difere de forma significativa dessa distribuição.
+
 >[!missing] MELHORAR
 >Colocar a intuição matemática, exemplos etc.
-
->[!summary] Resumo
->Teste estatístico para observar se uma distribuição de dados segue alguma distribuição específica ou se difere de forma significativa dessa distribuição  
 
 > [!important] Importante
 > Ajuda a ver se alguma variável previamente observada teve sua distribuição mudada (Data Drift).  

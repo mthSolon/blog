@@ -3,7 +3,6 @@ description: Gráfico q x q
 tags:
   - estatística
 ---
-
 >[!summary] RESUMO
 >O gráfico q x q mostra a relação entre duas variáveis. No gráfico é mostrado uma reta $y=x$, se os pontos estiverem abaixo da reta então a variável representada pelo eixo X possui valores maiores que a variável representada pelo eixo Y e vice-versa.
 
