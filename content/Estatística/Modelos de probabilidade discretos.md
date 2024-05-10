@@ -33,7 +33,7 @@ Para fixar, se nosso $k=1$, estaríamos atrás da probabilidade de uma pessoa de
 $$
 \begin{align} 
 P(X=k) & = \binom{3}{1} \cdot p^1 \cdot (1-p)^{3-1} \\
-& = 3 \cdot 0.8 \cdot 0.2^2,
+& = 3 \cdot 0,8 \cdot 0,2^2,
 \end{align}
 $$
 
@@ -63,3 +63,33 @@ P(X=20) & = 0,01 \cdot 0,99^{20} \\
 $$
 Portanto, a chance da vacina **imunizar** 20 pessoas **antes da vacina falhar** seria de 0,81%.
 
+# Poisson
+Poisson aparece em cenários onde a nossa variável aleatória possui uma frequência média em um intervalo de unidade.
+
+> [!NOTE] Nota
+>A unidade mencionada acima pode ser tempo, área, distância etc.
+
+$$
+P(X=x) = \frac{\lambda^xe^{-\lambda}}{x!}
+$$
+A função acima apresenta um novo parâmetro $\lambda$ e ele representa a frequência média ou esperada de ocorrências num determinado intervalo de tempo. Não há outra maneira de entender essas funções que não seja com um exemplo.
+
+Imagine que você esteja trabalhando com um equipamento que emite 2,3 partículas radioativas por segundo e que a quantidade de emissões segue uma distribuição de Poisson. Qual a probabilidade de, em um intervalo de dois segundos, 3 partículas serem emitidas?
+
+Temos como frequência média $\lambda = 2,3$ por segundo e nossa variável aleatória $X$ é a quantidade de emissões de partículas radioativas. Contudo, perceba que o enunciado pede a probabilidade de partículas emitidas em um intervalo de **dois segundos**, ou seja, o nosso *lambda* será $\lambda = 2,3 \cdot 2 = 4,6$. Portanto, temos:
+$$
+\begin{align}
+P(X=3) & = \frac{4,6^3 \cdot e^{-4,6}}{3!} \\\\
+& = 0,163
+\end{align}
+$$
+Logo, temos a probabilidade de 16,3% de termos exatamente 3 partículas emitidas.
+
+E se quisermos saber a probabilidade de **não** termos mais que 3 partículas emitidas em dois segundos, como faríamos? Basta somar as probabilidades:
+$$
+P(X <= 3) = P(X=0) + P(X=1) + P(X=2) + P(X=3)
+$$
+
+> [!WARNING] Atenção
+> * A distribuição de Poisson é geralmente usada como uma aproximação do verdadeiro fenômeno.
+> * É difícil determinar se uma variável aleatória tem uma distribuição de Poisson
