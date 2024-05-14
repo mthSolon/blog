@@ -2,7 +2,7 @@
 tags:
   - estatística
 ---
-Um modelo de probabilidade é uma função que retorna a probabilidade de uma variável aleatória acontecer.
+Um modelo de probabilidade é uma função que retorna a probabilidade do valor de uma variável aleatória.
 
 # Uniforme
 Um modelo uniforme retorna a mesma probabilidade para todas as variáveis discretas. Por exemplo, você comprou cinco números numa loteria que permite escolher até 100, os números que você escolheu foram: 10, 11, 12, 13 e 14. O seu amigo comprou, também, cinco números: 7, 34, 43, 55 e 67. Pela nossa intuição, o seu amigo tem mais chances de ganhar porque ele escolheu números mais espaçados, mas, na verdade, você e ele tem a mesma chance porque os números possuem as mesmas probabilidades: $1/100$. 
