@@ -27,13 +27,13 @@ Bacharelado em Ciência da Computação com foco em Ciência de Dados.
 
 # Projetos
 *Clique no nome para abrir o repositório e na setinha para uma breve descrição.*
->[!EXAMPLE]- [Análise de dados da empresa House Rocket](https://github.com/mthSolon/Data_Science/blob/main/House_Rocket.ipynb)
+>[!EXAMPLE]- [Análise de dados da empresa House Rocket](https://github.com/mthSolon/Data_Science/blob/main/portfolio/house_rocket/House_Rocket.ipynb)
 >Este foi um desafio proposto pelo site _Seja um Data Scientist_, que não está mais no ar. A House Rocket é uma empresa fictícia de compra e venda de imóveis, meu objetivo é analisar os dados fornecidos pela empresa e gerar insights, além de responder algumas perguntas do CEO.
 
->[!EXAMPLE]- [Predição de probabilidade de morte por insuficiência cardíaca](https://github.com/mthSolon/Data_Science/blob/main/heart_failure.ipynb)
+>[!EXAMPLE]- [Predição de probabilidade de morte por insuficiência cardíaca](https://github.com/mthSolon/Data_Science/blob/main/portfolio/heart_failure/heart_failure.ipynb)
 >Neste projeto utilizei técnicas de aprendizagem de máquina para prever a probabilidade de morte de pacientes por insuficiência cardíaca. Os dados são registros clínicos disponibilizados pelo _Kaggle_.
 
->[!EXAMPLE]- [Deploy do modelo de predição de morte por insuficiência cardíaca](https://github.com/mthSolon/Data_Science/blob/main/deploy_heart_failure.ipynb)
+>[!EXAMPLE]- [Deploy do modelo de predição de morte por insuficiência cardíaca](https://github.com/mthSolon/Data_Science/blob/main/portfolio/heart_failure/deploy_heart_failure.ipynb)
 >Utilizei a biblioteca _gradio_ do python para a criação de uma interface interativa que recebe como parâmetros as informações médicas do usuário e devolve a predição da probabilidade de morte do modelo utilizado no projeto anterior. Infelizmente, a interface só fica online caso eu deixe o notebook executando, portanto não é possível visualizar a menos que você me contate para eu deixa-la online para você visualizar.
 
 >[!EXAMPLE]- [TCC Guia](https://github.com/mthSolon/TCCGuia) **(EM CONSTRUÇÃO)**
