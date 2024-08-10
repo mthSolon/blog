@@ -5,7 +5,7 @@ aliases:
   - Homepage
   - Início
 ---
-Olá, espero que esteja bem! No explorador ao lado você encontrará minhas anotações sobre diversos assuntos. Abaixo eu falo um pouco sobre mim, sinta-se em casa :).
+Olá, espero que esteja bem! No explorador ao lado você encontrará minhas anotações sobre diversos assuntos (Se o explorador não estiver aparecendo, talvez sua tela seja pequena, tire um pouco do zoom para ele aparecer ou utilize a ferramenta de pesquisa). Abaixo eu falo um pouco sobre mim, sinta-se em casa :).
 # Sobre mim
 Meu nome é **Matheus**, estudo Ciência da Computação no IFCE e me especializo em Ciência de Dados, mas meus interesses vão desde computação até filosofia. Este blog pessoal serve como um repositório para minhas anotações sobre os meus interesses. Você pode encontrar meu currículo e minhas experiências no meu [Linkedin](https://linkedin.com/in/matheus-solon) e [Github](https://github.com/mthSolon).
 
